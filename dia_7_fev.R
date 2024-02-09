@@ -78,15 +78,6 @@ remove_exclamation_marks <- function(s){
 }
 remove_exclamation_marks("Hello World!!!!")
 
-
-# Coletar o nome abreviado  MUITO DIFICIL
-abbrev_name <- function(name){
-  separados <- strsplit(split=' ', name)
-  
-  separados[[1]]
-}
-abbrev_name("Luiz Eduardo")
-
 # Trasformar palavras de um vetor numa string
 smash <- function(words){
   paste0(words, collapse=' ')
