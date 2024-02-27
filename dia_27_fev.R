@@ -13,7 +13,7 @@ high_and_low("1 2 3") # 3 1"
 # ---------------------------------------------------------------
 # Função que pega dois valores e soma
 get_sum <- function(a, b){
-  return(a+b)
+  return(sum(a:b))
 }
 
 get_sum(0, 1) # 1
