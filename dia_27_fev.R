@@ -10,3 +10,13 @@ high_and_low <- function(numbers){
 
 high_and_low("8 3 -5 42 -1 0 0 -9 4 7 4 -4") # "42 -9"
 high_and_low("1 2 3") # 3 1"
+# ---------------------------------------------------------------
+# Função que pega dois valores e soma
+get_sum <- function(a, b){
+  return(a+b)
+}
+
+get_sum(0, 1) # 1
+get_sum(0, -1) # -1
+get_sum(8, 3) #11
+get_sum(-3, -3) #-6
