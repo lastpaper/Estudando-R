@@ -1,3 +1,5 @@
+#  --- EXEMPLO DE USO DO PIPE ---
+
 library(dplyr)
 
 # Criando um conjunto de dados exemplo
@@ -15,3 +17,26 @@ resultado <- dados %>%
 
 # Exibindo o resultado
 print(resultado)
+
+# -------------------------------
+
+
+# --- EXEMPLO DE USO DO RVEST ---
+library(rvest)
+
+# URL para fazer a requisição GET
+url <- "https://www.github.com"
+
+# Fazendo a requisição GET e parseando o HTML
+pagina <- read_html(url)
+
+# Extraindo o título da página
+titulo <- html_text(html_node(pagina, "title"))
+
+titulo <- url %>% 
+  read_html() %>% 
+  html_node("h2") %>% 
+  html_text()
+
+# Exibindo o título
+cat("Título:", titulo, "\n")
