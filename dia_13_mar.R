@@ -40,3 +40,29 @@ titulo <- url %>%
 
 # Exibindo o título
 cat("Título:", titulo, "\n")
+
+# --- DIAGRAMA NO R ---
+library(igraph)
+
+# Criar um grafo direcionado
+grafo <- graph(edges=c(
+  "Valor", "Salário", 
+  "Valor", "Mais-valia", 
+  "Mais-valia", "Renda da Terra",
+  "Mais-valia", "Juro",
+  "Mais-valia", "Lucro"
+), directed=TRUE)
+
+# Definir os rótulos dos vértices
+V(grafo)$label <- V(grafo)$name
+
+# Lista de layouts disponíveis
+layouts <- c("layout.circle", "layout.sphere", "layout.random", "layout.fruchterman.reingold", "layout.graphopt", "layout.kamada.kawai", "layout.drl", "layout.mds", "layout.grid", "layout.star", "layout_as_tree", "layout_with_sugiyama")
+
+# Testar cada layout
+for (layout in layouts) {
+  plot(grafo, layout=eval(parse(text=layout)), vertex.color="green", vertex.size=95, vertex.label.cex=1.2, edge.arrow.size=0.8,
+       edge.curved=0.3, margin=-0.2, vertex.shape="rectangle", main=paste("Layout:", gsub("layout.", "", layout)))
+  
+  Sys.sleep(1)
+}
