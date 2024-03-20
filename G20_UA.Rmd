@@ -1,0 +1,73 @@
+---
+title: "União Africana no G20"
+author: "Papel"
+date: '19/03/2024'
+output:
+  pdf_document: default
+  html_document: default
+---
+# Análise Comparativa entre G20 com União Africana e Sem União Africana
+
+Nesta seção, será realizada análise comparativa entre o G20 com a União Africana e o G20 sem a União Africana, considerando diversos indicadores econômicos relevantes. Os dados serão apresentados em duas tabelas: uma com os números absolutos e outra com as porcentagens em relação ao mundo.
+
+## Tabela 1: Números Absolutos
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(readxl)
+library(scales)
+library(dplyr)
+
+caminho_arquivo <- "dados_union_africa.xlsx"
+dados <- readxl::read_excel(caminho_arquivo, sheet = "numeros")
+
+# Função para formatar números usando percent do pacote scales
+formatar_numeros <- function(x) {
+  if(is.numeric(x)) {
+    label_number_si()(x)
+  } else {
+    x
+  }
+}
+
+# Aplicar a função formatar_numeros apenas nas colunas desejadas
+dados_formatados <- dados %>%
+  mutate(`Com União Africana` = formatar_numeros(`Com União Africana`),
+         `Sem União Africana` = formatar_numeros(`Sem União Africana`),
+         `Valores mundiais` = formatar_numeros(`Valores mundiais`))
+
+# Exibir os dados formatados usan
+knitr::kable(dados_formatados)
+```
+
+## Tabela 2: Porcentagens em Relação ao Mundo
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+caminho_arquivo <- "dados_union_africa.xlsx"
+other_dados <- readxl::read_excel(caminho_arquivo, sheet = "percentagens")
+
+formatar_percentuais <- function(x) {
+  if(is.numeric(x)) {
+    percent(x, accuracy = 0.1)  # Formata como porcentagem com precisão de 0.1%
+  } else {
+    x
+  }
+}
+
+# Aplicar a função formatar_percentuais apenas nas colunas desejadas
+dados_porcent <- other_dados %>%
+  mutate(across(where(is.numeric), formatar_percentuais))
+
+# Exibir os dados formatados usando knitr::kable
+knitr::kable(dados_porcent)
+
+```
+
+### Referências
+
+- **Área:** https://paises.ibge.gov.br/#/mapa **[dados de 2022]**
+- **População:** https://data.worldbank.org/indicator/SP.POP.TOTL **[dados de 2022]**
+- **PIB:** https://data.worldbank.org/indicator/NY.GDP.MKTP.CD **[dados de 2022]**
+- **PIB - Paridade do Poder de Compra:** https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD **[dados de 2022]**
+- **Comércio Internacional:** https://data.worldbank.org/indicator/TX.VAL.MRCH.CD.WT **[dados de 2022]**
+- **Comércio Agrícola:** https://wits.worldbank.org/CountryProfile/en/Country/WLD/Year/2021/TradeFlow/Export/Partner/all/Product/16-24_FoodProd# **[dados de 2021]**
+- **Produção Agrícola:** https://www.embrapa.br/agropensa/agricultura-faostat **[dados de 2021]**
