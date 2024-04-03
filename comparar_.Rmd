@@ -37,37 +37,37 @@ Neste documento, está a análise comparativa entre a planilha **_Lista de exped
 
 ## 3. Existe na planilha, existe na pasta, mas o nome do PDF possui erro de escrita:
 
-|   Data   |            nº e Código                |   Problema encontrado                 |
-|----------|---------------------------------------|---------------------------------------|
-|02-03-2003| TEL 134 - BRASEMB CARACAS - DDF.pdf   |(o documento é de 03/02 e não de 02/03)|
-|11-04-2002| TEL 2437 - DELBRASGEN - CGC.pdf       |(o documento é de 04/11 e não de 11/04)|
+|   Data   |            nº e Código                   |   Problema encontrado                 |
+|----------|------------------------------------------|---------------------------------------|
+|02-03-2003| TEL 134 - BRASEMB CARACAS - DDF.pdf      |(o documento é de 03/02 e não de 02/03)|
+|11-04-2002| TEL 2437 - DELBRASGEN - CGC.pdf          |(o documento é de 04/11 e não de 11/04)|
 |11-05-2002| TEL 2025 - BRASEMB BUENOS AIRES - CGC.pdf|(o documento é de 05/11 e não de 11/05)|
-|12-05-2002| TEL 266 - BRASEMB KINGSTON - CGC.pdf  |(o documento é de 05/12 e não de 12/05)|
-|04-07-2002| TEL 949 - BRASEMB WASHINGTON - SPD.pdf|(o documento é de 07/04 e não de 04/07)|
+|12-05-2002| TEL 266 - BRASEMB KINGSTON - CGC.pdf     |(o documento é de 05/12 e não de 12/05)|
+|04-07-2002| TEL 949 - BRASEMB WASHINGTON - SPD.pdf   |(o documento é de 07/04 e não de 04/07)|
 |11-08-2002| TEL 2073 - BRASEMB BUENOS AIRES - CGC.pdf|(o documento é de 08/11 e não de 11/08)|
-|11-08-2002| TEL 2481 - DELBRASGEN - CGC.pdf 		   |(o documento é de 08/11 e não de 11/08)|
-|07-12-2002| TEL 352 - BRASEMB OTTAWA - CGC.pdf 	 |(o documento é de 12/07 e não de 07/12)|
-|07-12-2002| TEL 353 - BRASEMB OTTAWA - CGC.pdf 	 |(o documento é de 12/07 e não de 07/12)|
-|09-12-2002| TEL 877 - BRASEUROPA - CGC.pdf  		   |(o documento é de 12/09 e não de 09/12)|
-|11-12-2002| TEL 567 - BRASEMB OTTAWA - CGC.pdf  	 |(o documento é de 12/11 e não de 11/12)|
-|20-12-2002| TEL 694 - BRASEMB PRETÓRIA - CGC.pdf  |(o mês é 11 e não 12)                  |
-|15-01-2003| TEL 301 - DELBRASGEN - CORG.pdf 		   |(o documento é de 10/02 e não de 15/01)|
-|15-01-2003| TEL 412 - BRASEMB LONDRES - DACESS.pdf|(o documento é de 19/05 e não de 15/01)|
-|28-01-2003| TEL 164 - BRASEMB LONDRES - DE I.pdf  |(o mês é 2 e não 1)                    |
-|20-03-2003| TEL 930 - DELBRASGEN - DNT.pdf 		   |(o documento é de 28/04 e não de 20/03)|
-|02-06-2003| TEL 271 - DELBRASGEN - DNT.pdf 	     |(o documento é de 06/02 e não de 02/06)|
-|03-06-2003| TEL 484 - DELBRASGEN - DACESS.pdf 		 |(o documento é de 06/03 e não de 03/06)|
-|01-07-2003| TEL 15 - DELBRASGEN - DNT.pdf		     |(o documento é de 07/01 e não de 01/07)|
-|03-07-2003| TEL 497 - DELBRASGEN -DACESS.pdf 		 |(o documento é de 07/03 e não de 03/07)|
-|01-08-2003| TEL 19 - DELBRASGEN - CORG.pdf 		   |(o documento é de 08/01 e não de 01/08)|
-|01-08-2003| TEL 20 - DELBRASGEN - CORG.pdf 		   |(o documento é de 08/01 e não de 01/08)|
-|01-09-2003| TEL 26 - DELBRASGEN - DNT.pdf 		     |(o documento é de 09/01 e não de 01/09)|
-|02-10-2003| TEL 297 - DELBRASGEN - DNT.pdf 		   |(o documento é de 10/02 e não de 02/10)|
-|02-11-2003| TEL 314 - DELBRASGEN - DNT.pdf 		   |(o documento é de 11/02 e não de 02/11)|
-|03-11-2003| TEL 508 - DELBRASGEN - CORG.pdf		   |(o documento é de 11/03 e não de 03/11)|
-|03-11-2003| TEL 520 - DELBRASGEN - DNT.pdf		     |(o documento é de 11/03 e não de 03/11)|
-|05-12-2003| TEL 1084 - DELBRASGEN - DNT.pdf 		   |(o documento é de 12/05 e não de 05/12)|
-|05-12-2003| TEL 1085 - DELBRASGEN - DNT.pdf 		   |(o documento é de 12/05 e não de 05/12)|
+|11-08-2002| TEL 2481 - DELBRASGEN - CGC.pdf 		      |(o documento é de 08/11 e não de 11/08)|
+|07-12-2002| TEL 352 - BRASEMB OTTAWA - CGC.pdf 	    |(o documento é de 12/07 e não de 07/12)|
+|07-12-2002| TEL 353 - BRASEMB OTTAWA - CGC.pdf 	    |(o documento é de 12/07 e não de 07/12)|
+|09-12-2002| TEL 877 - BRASEUROPA - CGC.pdf  		      |(o documento é de 12/09 e não de 09/12)|
+|11-12-2002| TEL 567 - BRASEMB OTTAWA - CGC.pdf  	    |(o documento é de 12/11 e não de 11/12)|
+|20-12-2002| TEL 694 - BRASEMB PRETÓRIA - CGC.pdf     |(o mês é 11 e não 12)                  |
+|15-01-2003| TEL 301 - DELBRASGEN - CORG.pdf 		      |(o documento é de 10/02 e não de 15/01)|
+|15-01-2003| TEL 412 - BRASEMB LONDRES - DACESS.pdf   |(o documento é de 19/05 e não de 15/01)|
+|28-01-2003| TEL 164 - BRASEMB LONDRES - DE I.pdf     |(o mês é 2 e não 1)                    |
+|20-03-2003| TEL 930 - DELBRASGEN - DNT.pdf 		      |(o documento é de 28/04 e não de 20/03)|
+|02-06-2003| TEL 271 - DELBRASGEN - DNT.pdf 	        |(o documento é de 06/02 e não de 02/06)|
+|03-06-2003| TEL 484 - DELBRASGEN - DACESS.pdf 		    |(o documento é de 06/03 e não de 03/06)|
+|01-07-2003| TEL 15 - DELBRASGEN - DNT.pdf		        |(o documento é de 07/01 e não de 01/07)|
+|03-07-2003| TEL 497 - DELBRASGEN -DACESS.pdf 		    |(o documento é de 07/03 e não de 03/07)|
+|01-08-2003| TEL 19 - DELBRASGEN - CORG.pdf 		      |(o documento é de 08/01 e não de 01/08)|
+|01-08-2003| TEL 20 - DELBRASGEN - CORG.pdf 		      |(o documento é de 08/01 e não de 01/08)|
+|01-09-2003| TEL 26 - DELBRASGEN - DNT.pdf 		        |(o documento é de 09/01 e não de 01/09)|
+|02-10-2003| TEL 297 - DELBRASGEN - DNT.pdf 		      |(o documento é de 10/02 e não de 02/10)|
+|02-11-2003| TEL 314 - DELBRASGEN - DNT.pdf 		      |(o documento é de 11/02 e não de 02/11)|
+|03-11-2003| TEL 508 - DELBRASGEN - CORG.pdf		      |(o documento é de 11/03 e não de 03/11)|
+|03-11-2003| TEL 520 - DELBRASGEN - DNT.pdf		        |(o documento é de 11/03 e não de 03/11)|
+|05-12-2003| TEL 1084 - DELBRASGEN - DNT.pdf 		      |(o documento é de 12/05 e não de 05/12)|
+|05-12-2003| TEL 1085 - DELBRASGEN - DNT.pdf 		      |(o documento é de 12/05 e não de 05/12)|
 
 - OBS 3: A pasta **_New Expedientes_** contém esses arquivos com as datas corrigidas
 
