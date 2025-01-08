@@ -9,7 +9,7 @@
 - [Paho (organização panamericana de saúde)](https://www.paho.org/en)
 - [DrivenData (competições Ciência de Dados)](https://www.drivendata.org/)
 - [Seade: análises e estatísticas socioeconômicas e demográficas de SP](https://www.seade.gov.br/)
-    https://github.com/seade-R/dados-covid-sp
+    - https://github.com/seade-R/dados-covid-sp
  
 
 
