@@ -85,7 +85,15 @@ ggplot() +
               y = reorder(Evento, -Socialismo),
               label = Socialismo,
             ),
-            size = 3, hjust = -0.2, fontface="bold", color="white") +
+            size = 3, hjust = -0.2, fontface="bold", color="yellow") +
+  
+  geom_text(data = dados %>% filter(!is.na(FimSocialismo)),
+            aes(
+              x = FimSocialismo,
+              y = reorder(Evento, -FimSocialismo),
+              label = FimSocialismo,
+            ),
+            size = 3, hjust = 1, fontface="bold", color="yellow") +
   # 
   # # Adicionar ponto de losango preenchido
   # # Adicionar ponto de losango preenchido
